@@ -4,9 +4,9 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 
 
-st.title('Machine learning App')
+st.title('Penguin Species Prediction')
 
-st.write('This app builds an machine learning model')
+st.write('A machine learning model that identifies penguin species based on key measurements')
 
 with st.expander('Data'):
   st.write('**Raw data**')
