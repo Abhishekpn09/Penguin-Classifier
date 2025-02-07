@@ -49,6 +49,10 @@ target_mapper={'Adelie' :0 , 'Chinstrap' :1 ,'Gentoo':2}
 def target_encoder(val):
   return target_mapper[val]
 
+Y=Y_raw.apply(target_encode)
+Y
+Y_raw
+
 with st.expander('Input features'):
   st.write('**Input penguin**')
   input_df
