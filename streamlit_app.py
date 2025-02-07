@@ -9,3 +9,13 @@ with st.expander('Data'):
   st.write('**Raw data**')
   df=pd.read_csv('https://raw.githubusercontent.com/Abhishekpn09/StreamlitProjects/refs/heads/master/.devcontainer/penguins_clean%20(1).csv')
   df
+
+  st.write('**X**')
+  X=df.drop('species',axis=1)
+  X
+
+  st.write('**Y**')
+  Y=df.species
+  Y
+
+  
