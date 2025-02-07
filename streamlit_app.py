@@ -1,7 +1,10 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
+from sklearn.ensemble import RandomForestClassifier
 
-st.title(' Machine learning App')
+
+st.title('Machine learning App')
 
 st.write('This app builds an machine learning model')
 
