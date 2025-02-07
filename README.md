@@ -1,6 +1,5 @@
-# Macline Learning App
-This is an machine learning app 
-
+# Accessing the domain for the website
+https://appprojects-xbfony.streamlit.app/
 ## Demo App
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://StreamlitProjects.streamlit.app/)
